@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Voucher Sultan",
+  "version": "1.0",
+  "description": "Ekstensi sederhana untuk mengambil kode voucher Sultan Hotspot saat di print. Note: kode harus berawalan (sult) / prefixnya",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
